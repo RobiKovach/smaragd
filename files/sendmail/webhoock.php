@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = $_POST['phone'];
 
     // Визначте URL вебхука
-    $webhook_url = '';
+    $webhook_url = 'https://hook.eu1.make.com/jpxlhyoc34drxai6gmyvmlsganhg2y91';
 
     // Створіть асоціативний масив з даними UTM та іншими полями
     $data = array(
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Перевірте, чи був запит успішним
     if ($response) {
-        header('Location: ');
+        header('Location: thanks.html');
         exit;
     } else {
         echo 'Помилка при відправці даних.';
