@@ -910,6 +910,9 @@ body {
   flex-direction: column;
   position: relative
 }
+.popup__text {
+  width: 100%
+}
 .mob {
   display: none
 }
@@ -1342,7 +1345,7 @@ body {
   margin-right: 12px
 }
 .contacts {
-  background: url(../img/contact/bg.png) no-repeat;
+  background: url(../img/contact/bg.webp) no-repeat;
   background-size: cover;
   position: relative
 }
@@ -1586,6 +1589,10 @@ body {
 }
 .individual-title {
   line-height: 90%
+}
+.rotate-left {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg)
 }
 .pay {
   margin-top: 3.75rem
